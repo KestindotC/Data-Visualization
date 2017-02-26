@@ -47,7 +47,7 @@ library(gplots)
 heatmap.2(as.matrix(data), col=redgreen, scale="row", key=T, keysize=1.3,breaks=c(seq(-3, 3,0.01)),density.info="none", trace="none",labCol = F,margins = c(3,12),cexRow = 0.8)
 
 ```
-[example](z_heatmap.2_R.png)
+![example](z_heatmap.2_R.png)
 
 > Heatmap.2 有幾個比較需要自己調整的問題    
 > 像是常見的包含在RStudio上會出現的下面的error可藉由調整 margin 以及 par參數來除錯
@@ -78,4 +78,4 @@ plt.setp(fig.ax_heatmap.set_xticklabels([]))     # X labels ommited
 fig.savefig("heatmap_result.png")
 
 ```
-[example](z_python_seaborn_clustermap.png)
+![example](z_python_seaborn_clustermap.png)
