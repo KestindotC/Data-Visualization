@@ -32,7 +32,7 @@ chordDiagram(df, annotationTrack = c('name','grid'))
 
 
 ```
-![pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/z_chordplot_r.png)
+![pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/e163fcf4f0ce64c22eaede481c5c0fb41932d8ff/z_chordplot_r.png)
 
 
 > 可以看到在text labeling的調整上可能還是要透過base package(circos)   
