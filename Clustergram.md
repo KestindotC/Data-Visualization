@@ -47,7 +47,7 @@ library(gplots)
 heatmap.2(as.matrix(data), col=redgreen, scale="row", key=T, keysize=1.3,breaks=c(seq(-3, 3,0.01)),density.info="none", trace="none",labCol = F,margins = c(3,12),cexRow = 0.8)
 
 ```
-![example](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/z_heatmap.2_R.png)
+![example](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/11cd1dd60d39b920749ac5ac34b5d5c7ccd614a7/z_gsheatmap_R.png)
 
 > Heatmap.2 有幾個比較需要自己調整的問題    
 > 像是常見的包含在RStudio上會出現的下面的error可藉由調整 margin 以及 par參數來除錯
