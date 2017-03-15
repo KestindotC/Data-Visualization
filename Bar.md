@@ -26,4 +26,4 @@ ggplot(snp,aes(x=reorder(gene,SNPsummary),y=SNPsummary,fill=common))+
 
 > 圖的範例為自己研究所需，當然有些參數已經過調整，所以非真實Data
  
-![pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/e163fcf4f0ce64c22eaede481c5c0fb41932d8ff/z_barplot.png)
+![pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/efcdd6ff96dcc289c55c4efbe4fc8df63cde90e5/z_barplot.png)
