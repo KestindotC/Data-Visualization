@@ -1,4 +1,4 @@
-#Data Visualization in Bioinformatics
+# Data Visualization in Bioinformatics
 
 Bar plot的使用上滿普遍的，本篇沒什麼其特點，用任何工具甚至是excel都可以達成，因人喜好而已。   
 最近正好需要處理到Mutation Gene的profile，通常以binary的形式去紀錄gene的突變狀況，需要粗略的統計到有多少手邊的樣本產生突變，因此簡單地以一個表格統計gene以及mutation人數。
