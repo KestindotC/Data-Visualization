@@ -36,7 +36,7 @@ ggplot(data=data) +
 
 ```
 
-[pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/e950633f191f928e39251707be0888e557a591b7/z_CNV_first_gainloss.png)
+[pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/a5b79ab59e106d26be195409ff9dc95ba3265231/z_CNV_first_gainloss.png)
 
 
 > 以圖來呈現非常廣泛的Genomic Range會造成當距離不是很長的資訓，會呈現不出Bar圖，以上圖來說10Mb的區間才呈現出一條細細的線
@@ -60,4 +60,4 @@ ggplot(data=data) +
 
 ```
 
-[pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/e950633f191f928e39251707be0888e557a591b7/z_CNV_first_gainloss.png)
+[pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/a5b79ab59e106d26be195409ff9dc95ba3265231/z_CNV_heatmap.png)
