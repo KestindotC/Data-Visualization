@@ -28,5 +28,6 @@ ggsurvplot(fit,data = data,
 
 ```
 
+![pic](https://gist.githubusercontent.com/KestindotC/7f8caa8be6b33cbe06dbdc5b98d10d6a/raw/92dbde4648322c15ec13e76c0038297e8fe7d485/z_surv.png)
 
 如果你需要更多功能像是加入Confidence interval或是Risk table的話可以參考官方網站特別整理出的Cheat sheet
