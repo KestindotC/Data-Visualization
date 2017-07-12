@@ -1,7 +1,6 @@
 # Data Visualization in Bioinformatics
 
-Bar plot的使用上滿普遍的，本篇沒什麼其特點，用任何工具甚至是excel都可以達成，因人喜好而已。   
-最近正好需要處理到Mutation Gene的profile，通常以binary的形式去紀錄gene的突變狀況，需要粗略的統計到有多少手邊的樣本產生突變，因此簡單地以一個表格統計gene以及mutation人數。
+Bar plot的使用上滿普遍的，本篇沒什麼其特點，用任何工具甚至是excel都可以達成，因人喜好而已。但就自己的經驗其實Bar plot是一個最為直觀的圖，讓人能夠一眼清楚的知道想要表達的數量，有時候會比各種花俏的圖來的更簡單有力的說服讀者。最近正好需要處理到Mutation Gene的profile，通常以binary的形式去紀錄gene的突變狀況，需要粗略的統計到有多少手邊的樣本產生突變，因此以一個表格統計gene以及mutation人數的話會像下面這張表：
 
 | gene  | SNP_samplenum | type |
 |:---:|:---:|:---:|
@@ -13,7 +12,7 @@ Bar plot的使用上滿普遍的，本篇沒什麼其特點，用任何工具甚
 |  CD3 |  1 | normal  |
 
 > type是手動調整的，由於有些基因在某些疾病中比較容易突變，而且被report過多次
-> 你的老闆或者是幫你看資料的人可能會想要知道他們長在哪些位置
+> 你的老闆或者是研讀資料的人可能會想要知道他們長在哪些位置
 > 所以把某些gene標註成oncogene使得ggplot自己去調整顏色
 
 ```R
